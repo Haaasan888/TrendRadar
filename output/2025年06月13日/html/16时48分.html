@@ -1,0 +1,388 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>总标题数: 255</p><p>生成时间: 2025-06-13 16:48:07</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">消费股 白酒 食品饮料 家电 医药 医疗 日化 大消费</td>
+                    <td class="count">5</td>
+                    <td class="percentage">1.96%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3749027" target="_blank" class="news-link">美国宣布23日起对钢制家电加征关税，洗衣机冰箱在列</a> [10] <font color='grey'>- 16时48分</font><br>[凤凰网] <a href="https://news.ifeng.com/c/8k9Azi223nK" target="_blank" class="news-link">伊朗国家电视台：革命卫队司令据称遇袭身亡</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 16时48分</font><br>[weibo] <a href="https://m.weibo.cn/search?containerid=231522type%3D1%26q%3D%23%E6%B9%98%E9%9B%85%E4%BA%8C%E9%99%A2%E6%9B%BE%E5%9B%A0%E7%9E%92%E6%8A%A5%E9%87%8D%E5%A4%A7%E5%8C%BB%E7%96%97%E7%BA%A0%E7%BA%B7%E8%A2%AB%E5%A4%84%E7%BD%9A%23&amp;_T_WM=16922097837&amp;v_p=42" target="_blank" class="news-link">湘雅二院曾因瞒报重大医疗纠纷被处罚</a> [23] <font color='grey'>- 16时48分</font><br>[zhihu] <a href="https://www.zhihu.com/question/1916588226082202872" target="_blank" class="news-link">实习医生举报医院医疗腐败后坠楼身亡，湖南省卫健委回应湘雅二医院罗帅宇事件警方仍在调查，具体情况怎么样？</a> [11] <font color='grey'>- 16时48分</font><br>[zhihu] <a href="https://www.zhihu.com/question/1916789607665722265" target="_blank" class="news-link">茅台批价跌破 2000 元，LABUBU 却拍出 108 万元高价，年轻人真要抛弃白酒了么？</a> [16] <font color='grey'>- 16时48分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">股市 A股 大盘 沪指 深指 创业板 上证指数 深证成指</td>
+                    <td class="count">3</td>
+                    <td class="percentage">1.18%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3749032" target="_blank" class="news-link">以军空袭，伊朗还击！原油暴涨10%后回落，黄金重返3400，全球股市下挫</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 16时48分</font><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3748967" target="_blank" class="news-link">A股震荡盘整，新消费概念爆发，恒指跌超1%，医药股逆势上涨，国债、商品多下跌</a> [9] <font color='grey'>- 16时48分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2056121" target="_blank" class="news-link">万科闪电清仓A股库存股 回笼资金4.79亿元</a> [13] <font color='grey'>- 16时48分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">美股 纳斯达克 道琼斯 标普500 标普指数 美股市场 美股收盘</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.78%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3748982" target="_blank" class="news-link">通胀降温叠加美债标售稳健，美股美债齐涨，美元三年来新低，甲骨文大涨13%</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 16时48分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2056186" target="_blank" class="news-link">美股收盘：三大指数集体收涨 甲骨文股价创新高、波音暴跌</a> [6] <font color='grey'>- 16时48分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">降息 加息 通胀 CPI PPI 美联储 货币政策</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.78%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3749012" target="_blank" class="news-link">特朗普加码施压鲍威尔：笨蛋！再不降息，不得不“采取一些强制措施”</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 16时48分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2056238" target="_blank" class="news-link">再批鲍威尔！特朗普敦促降息2个百分点：每年可省6000亿美元</a> [7] <font color='grey'>- 16时48分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">华为 任正非 鸿蒙 HarmonyOS</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[tieba] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28342736&amp;amp;topic_name=%E5%8D%8E%E4%B8%BAPura80%E7%B3%BB%E5%88%97%E4%BB%B7%E6%A0%BC%E9%A6%99%E4%B8%8D%E9%A6%99" target="_blank" class="news-link">华为Pura80系列价格香不香</a> [24] <font color='grey'>- 16时48分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">米哈游 原神 星穹铁道</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E9%93%83%E6%9C%A8%E7%88%B1%E7%90%86%E5%8E%9F%E7%A5%9EMV%E4%B8%8A%E7%BA%BF" target="_blank" class="news-link">铃木爱理原神MV上线</a> [10] <font color='grey'>- 16时48分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="word">黄仁勋 英伟达 NVIDIA</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[财联社热门] <a href="https://www.cls.cn/detail/2056159" target="_blank" class="news-link">硬刚英伟达！AMD宣称其新款AI芯片已全面超越竞争对手</a> [9] <font color='grey'>- 16时48分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>8</td>
+                    <td class="word">人民币 汇率 外汇 美元 美元指数 美元兑人民币</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3749031" target="_blank" class="news-link">中东风险持续升温，摩根大通：最坏情况下，油价将涨到120-130美元！</a> [6] <font color='grey'>- 16时48分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>9</td>
+                    <td class="word">经济 GDP 宏观经济 经济数据 复苏 衰退 滞涨 经济增长</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[douyin] <a href="https://www.douyin.com/hot/2129390" target="_blank" class="news-link">变港口流量为经济增量</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 16时48分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>10</td>
+                    <td class="word">地产 房地产 楼市 房价 楼盘 地产业</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[财联社热门] <a href="https://www.cls.cn/detail/2056501" target="_blank" class="news-link">广州：优化房地产政策 全面取消限购、限售、限价并降低贷款首付比例和利率</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 16时48分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>11</td>
+                    <td class="word">胖东来 于东来</td>
+                    <td class="count">0</td>
+                    <td class="percentage">0.0%</td>
+                    <td class="titles"></td>
+                </tr>
+            
+                <tr>
+                    <td>12</td>
+                    <td class="word">DeepSeek 梁文锋</td>
+                    <td class="count">0</td>
+                    <td class="percentage">0.0%</td>
+                    <td class="titles"></td>
+                </tr>
+            
+                <tr>
+                    <td>13</td>
+                    <td class="word">比亚迪 王传福</td>
+                    <td class="count">0</td>
+                    <td class="percentage">0.0%</td>
+                    <td class="titles"></td>
+                </tr>
+            
+                <tr>
+                    <td>14</td>
+                    <td class="word">宇树 王兴兴</td>
+                    <td class="count">0</td>
+                    <td class="percentage">0.0%</td>
+                    <td class="titles"></td>
+                </tr>
+            
+                <tr>
+                    <td>15</td>
+                    <td class="word">稚晖君 智元</td>
+                    <td class="count">0</td>
+                    <td class="percentage">0.0%</td>
+                    <td class="titles"></td>
+                </tr>
+            
+                <tr>
+                    <td>16</td>
+                    <td class="word">黑神话 冯骥</td>
+                    <td class="count">0</td>
+                    <td class="percentage">0.0%</td>
+                    <td class="titles"></td>
+                </tr>
+            
+                <tr>
+                    <td>17</td>
+                    <td class="word">哪吒 饺子</td>
+                    <td class="count">0</td>
+                    <td class="percentage">0.0%</td>
+                    <td class="titles"></td>
+                </tr>
+            
+                <tr>
+                    <td>18</td>
+                    <td class="word">流浪地球 郭帆 三体 刘慈欣</td>
+                    <td class="count">0</td>
+                    <td class="percentage">0.0%</td>
+                    <td class="titles"></td>
+                </tr>
+            
+                <tr>
+                    <td>19</td>
+                    <td class="word">京东 刘强东</td>
+                    <td class="count">0</td>
+                    <td class="percentage">0.0%</td>
+                    <td class="titles"></td>
+                </tr>
+            
+                <tr>
+                    <td>20</td>
+                    <td class="word">字节 张一鸣</td>
+                    <td class="count">0</td>
+                    <td class="percentage">0.0%</td>
+                    <td class="titles"></td>
+                </tr>
+            
+                <tr>
+                    <td>21</td>
+                    <td class="word">马斯克 特斯拉</td>
+                    <td class="count">0</td>
+                    <td class="percentage">0.0%</td>
+                    <td class="titles"></td>
+                </tr>
+            
+                <tr>
+                    <td>22</td>
+                    <td class="word">微软 Microsoft</td>
+                    <td class="count">0</td>
+                    <td class="percentage">0.0%</td>
+                    <td class="titles"></td>
+                </tr>
+            
+                <tr>
+                    <td>23</td>
+                    <td class="word">AMD</td>
+                    <td class="count">0</td>
+                    <td class="percentage">0.0%</td>
+                    <td class="titles"></td>
+                </tr>
+            
+                <tr>
+                    <td>24</td>
+                    <td class="word">谷歌 google gemini deepmind</td>
+                    <td class="count">0</td>
+                    <td class="percentage">0.0%</td>
+                    <td class="titles"></td>
+                </tr>
+            
+                <tr>
+                    <td>25</td>
+                    <td class="word">chatgpt openai</td>
+                    <td class="count">0</td>
+                    <td class="percentage">0.0%</td>
+                    <td class="titles"></td>
+                </tr>
+            
+                <tr>
+                    <td>26</td>
+                    <td class="word">claude Anthropic</td>
+                    <td class="count">0</td>
+                    <td class="percentage">0.0%</td>
+                    <td class="titles"></td>
+                </tr>
+            
+                <tr>
+                    <td>27</td>
+                    <td class="word">iphone ipad mac ios</td>
+                    <td class="count">0</td>
+                    <td class="percentage">0.0%</td>
+                    <td class="titles"></td>
+                </tr>
+            
+                <tr>
+                    <td>28</td>
+                    <td class="word">ai 人工智能</td>
+                    <td class="count">0</td>
+                    <td class="percentage">0.0%</td>
+                    <td class="titles"></td>
+                </tr>
+            
+                <tr>
+                    <td>29</td>
+                    <td class="word">汽车 自动驾驶 l3</td>
+                    <td class="count">0</td>
+                    <td class="percentage">0.0%</td>
+                    <td class="titles"></td>
+                </tr>
+            
+                <tr>
+                    <td>30</td>
+                    <td class="word">机器人</td>
+                    <td class="count">0</td>
+                    <td class="percentage">0.0%</td>
+                    <td class="titles"></td>
+                </tr>
+            
+                <tr>
+                    <td>31</td>
+                    <td class="word">芯片 半导体 光刻机</td>
+                    <td class="count">0</td>
+                    <td class="percentage">0.0%</td>
+                    <td class="titles"></td>
+                </tr>
+            
+                <tr>
+                    <td>32</td>
+                    <td class="word">科技</td>
+                    <td class="count">0</td>
+                    <td class="percentage">0.0%</td>
+                    <td class="titles"></td>
+                </tr>
+            
+                <tr>
+                    <td>33</td>
+                    <td class="word">核能</td>
+                    <td class="count">0</td>
+                    <td class="percentage">0.0%</td>
+                    <td class="titles"></td>
+                </tr>
+            
+                <tr>
+                    <td>34</td>
+                    <td class="word">月球 登月 火星 宇宙 飞船</td>
+                    <td class="count">0</td>
+                    <td class="percentage">0.0%</td>
+                    <td class="titles"></td>
+                </tr>
+            
+                <tr>
+                    <td>35</td>
+                    <td class="word">港股 恒生指数 港股市场 香港股市</td>
+                    <td class="count">0</td>
+                    <td class="percentage">0.0%</td>
+                    <td class="titles"></td>
+                </tr>
+            
+                <tr>
+                    <td>36</td>
+                    <td class="word">利好 利空 看涨 看跌 做多 做空 抄底 割肉</td>
+                    <td class="count">0</td>
+                    <td class="percentage">0.0%</td>
+                    <td class="titles"></td>
+                </tr>
+            
+                <tr>
+                    <td>37</td>
+                    <td class="word">科技股 芯片 半导体 AI 大模型 人工智能 算力 数据中心</td>
+                    <td class="count">0</td>
+                    <td class="percentage">0.0%</td>
+                    <td class="titles"></td>
+                </tr>
+            
+                <tr>
+                    <td>38</td>
+                    <td class="word">新能源 光伏 风电 储能 锂电池 电动车 新能源汽车 充电桩</td>
+                    <td class="count">0</td>
+                    <td class="percentage">0.0%</td>
+                    <td class="titles"></td>
+                </tr>
+            
+                <tr>
+                    <td>39</td>
+                    <td class="word">中字头 中字企业 国企改革 国资委</td>
+                    <td class="count">0</td>
+                    <td class="percentage">0.0%</td>
+                    <td class="titles"></td>
+                </tr>
+            
+                <tr>
+                    <td>40</td>
+                    <td class="word">军工 军工股 军民融合</td>
+                    <td class="count">0</td>
+                    <td class="percentage">0.0%</td>
+                    <td class="titles"></td>
+                </tr>
+            
+                <tr>
+                    <td>41</td>
+                    <td class="word">IPO 上市 新股 注册制 打新 科创板</td>
+                    <td class="count">0</td>
+                    <td class="percentage">0.0%</td>
+                    <td class="titles"></td>
+                </tr>
+            
+                <tr>
+                    <td>42</td>
+                    <td class="word">基金 ETF 公募 私募 机构投资者</td>
+                    <td class="count">0</td>
+                    <td class="percentage">0.0%</td>
+                    <td class="titles"></td>
+                </tr>
+            
+            </table>
+        </body>
+        </html>
+        

@@ -1,0 +1,162 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>总标题数: 255</p><p>生成时间: 2025-06-17 03:54:42</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">消费 白酒 家电 食品饮料 啤酒 消费电子 新零售</td>
+                    <td class="count">7</td>
+                    <td class="percentage">2.75%</td>
+                    <td class="titles">[百度热搜] <a href="https://www.baidu.com/s?wd=%E4%BB%A5%E8%A2%AD%E5%87%BB%E4%BC%8A%E6%9C%97%E5%9B%BD%E5%AE%B6%E7%94%B5%E8%A7%86%E5%8F%B0%E5%A4%A7%E6%A5%BC+%E7%9B%B4%E6%92%AD%E4%B8%AD%E6%96%AD" target="_blank" class="news-link">以袭击伊朗国家电视台大楼 直播中断</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 03时54分</font><br>[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_30992659" target="_blank" class="news-link">视频丨伊朗国家电视台恢复直播，多名员工在以色列袭击中受伤</a> [7] <font color='grey'>- 03时54分</font><br>[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E4%BB%A5%E8%89%B2%E5%88%97%E8%A2%AD%E5%87%BB%E4%BC%8A%E6%9C%97%E5%9B%BD%E5%AE%B6%E7%94%B5%E8%A7%86%E5%8F%B0%E5%A4%A7%E6%A5%BC" target="_blank" class="news-link">以色列袭击伊朗国家电视台大楼</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 03时54分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2058734" target="_blank" class="news-link">“苏超”点燃江苏消费热：白酒、小龙虾销量激增，官方赞助一席难求</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 03时54分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2058575" target="_blank" class="news-link">一图读懂：新消费股狂欢背后 毛戈平和老铺黄金等卖空量飙升</a> [8] <font color='grey'>- 03时54分</font><br>[weibo] <a href="https://m.weibo.cn/search?containerid=231522type%3D1%26q%3D%23%E4%BB%A5%E8%89%B2%E5%88%97%E8%A2%AD%E5%87%BB%E4%BC%8A%E6%9C%97%E5%9B%BD%E5%AE%B6%E7%94%B5%E8%A7%86%E5%8F%B0%E5%A4%A7%E6%A5%BC%23&amp;_T_WM=16922097837&amp;v_p=42" target="_blank" class="news-link">以色列袭击伊朗国家电视台大楼</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 03时54分</font><br>[douyin] <a href="https://www.douyin.com/hot/2133805" target="_blank" class="news-link">以方袭击伊朗国家电视台大楼</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 03时54分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">情绪 看涨 看跌 利好 利空 暴涨 暴跌 割肉 抄底 封板 炸板 涨停 跌停 异动</td>
+                    <td class="count">5</td>
+                    <td class="percentage">1.96%</td>
+                    <td class="titles">[百度热搜] <a href="https://www.baidu.com/s?wd=%E8%8D%94%E6%9E%9D%E4%BB%B7%E6%A0%BC%E6%9A%B4%E8%B7%8C%E4%B8%83%E6%88%90" target="_blank" class="news-link">荔枝价格暴跌七成</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 03时54分</font><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3749187" target="_blank" class="news-link">段永平再晒持仓：卖出苹果的看跌期权，金额合计超144万美元</a> [7] <font color='grey'>- 03时54分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2058607" target="_blank" class="news-link">【焦点复盘】创指缩量反弹收复5日线，化工等顺周期板块延续强势，影视IP人气股时隔4个月再获涨停</a> [7] <font color='grey'>- 03时54分</font><br>[douyin] <a href="https://www.douyin.com/hot/2133609" target="_blank" class="news-link">荔枝价格较上市初期暴跌七成</a> [30] <font color='grey'>- 03时54分</font><br>[zhihu] <a href="https://www.zhihu.com/question/1908089395870937207" target="_blank" class="news-link">为什么有时候无法控制自己的情绪？</a> [15] <font color='grey'>- 03时54分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">美联储 美股 道琼斯 纳斯达克 标普500 加息预期 美债收益率</td>
+                    <td class="count">3</td>
+                    <td class="percentage">1.18%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3749151" target="_blank" class="news-link">报道称伊朗向美以释放对话信号，美股三大股指涨超1%，原油跌超4%、黄金跌超1%</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 03时54分</font><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3749155" target="_blank" class="news-link">高盛发明“新口号”：中国“民营十巨头”，直接对标“美股七姐妹”</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 03时54分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2058846" target="_blank" class="news-link">市场担忧情绪缓解 美股三大期指集体走高 | 今夜看点</a> [10] <font color='grey'>- 03时54分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">军工 军工股 军民融合 航空航天 导弹 国防军工</td>
+                    <td class="count">3</td>
+                    <td class="percentage">1.18%</td>
+                    <td class="titles">[今日头条] <a href="https://www.toutiao.com/trending/7515447022997192723/" target="_blank" class="news-link">以总理：伊朗朝我卧室发射导弹</a> [18] <font color='grey'>- 03时54分</font><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%BC%8A%E6%9C%97%E5%86%8D%E5%90%91%E4%BB%A5%E5%8F%91%E5%B0%84%E5%AF%BC%E5%BC%B9+%E4%BB%A5%E7%A7%B0%E6%AD%A3%E5%8A%AA%E5%8A%9B%E6%8B%A6%E6%88%AA" target="_blank" class="news-link">伊朗再向以发射导弹 以称正努力拦截</a> [29] <font color='grey'>- 03时54分</font></div><br>[weibo] <a href="https://m.weibo.cn/search?containerid=231522type%3D1%26q%3D%23%E4%BB%A5%E8%89%B2%E5%88%97%E5%AD%A9%E5%AD%90%E8%A2%AB%E5%AF%BC%E5%BC%B9%E5%90%93%E5%88%B0%E5%93%AD%E7%9D%80%E5%96%8A%E5%A6%88%E5%A6%88%23&amp;_T_WM=16922097837&amp;v_p=42" target="_blank" class="news-link">以色列孩子被导弹吓到哭着喊妈妈</a> [15] <font color='grey'>- 03时54分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">AI 人工智能 大模型 GPT Sora AIGC 算力 算力租赁 数据中心</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.78%</td>
+                    <td class="titles"><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_30991395" target="_blank" class="news-link">大学2025丨学者王生云：AI时代应回归以作者为中心的评价体系</a> [20] <font color='grey'>- 03时54分</font></div><br>[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=AI%E6%97%B6%E4%BB%A3%E7%9A%84%E4%B8%93%E4%B8%9A%E7%BA%A2%E9%BB%91%E6%A6%9C" target="_blank" class="news-link">AI时代的专业红黑榜</a> [30] <font color='grey'>- 03时54分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">A股 股市 沪指 深指 创业板 中小板 大盘 A股市场</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[财联社热门] <a href="https://www.cls.cn/detail/2058578" target="_blank" class="news-link">换手率又居A股第一！“人气牛”2日暴涨55%，资金热力图扫描，高换手率扎堆这里</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 03时54分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="word">券商 证券 两融 券商股 融资融券 两市成交额</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2058825" target="_blank" class="news-link">1500亿半导体龙头6月20日起正式变更证券简称|盘后公告集锦</a> [13] <font color='grey'>- 03时54分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>8</td>
+                    <td class="word">半导体 芯片 集成电路 光刻机 国产替代 EDA</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[今日头条] <a href="https://www.toutiao.com/trending/7516347712556502591/" target="_blank" class="news-link">分析：中国芯片产业正重走稀土路</a> [28] <font color='grey'>- 03时54分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>9</td>
+                    <td class="word">新能源 光伏 风电 氢能源 锂电池 电动车 储能 充电桩 固态电池</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[百度热搜] <a href="https://www.baidu.com/s?wd=%E5%B1%B1%E8%A5%BF%E4%B8%80%E5%AD%A6%E7%94%9F%E8%A2%AB%E5%85%89%E4%BC%8F%E6%9D%BF%E7%A0%B8%E4%B8%AD%E8%BA%AB%E4%BA%A1%EF%BC%9F%E5%81%87" target="_blank" class="news-link">山西一学生被光伏板砸中身亡？假</a> [11] <font color='grey'>- 03时54分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>10</td>
+                    <td class="word">房地产 楼市 地产股 房价 房地产政策 保障房</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3749160" target="_blank" class="news-link">5月70城房价：各线城市二手房价环比降幅扩大，一线、二线新房房价环比转降</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 03时54分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>11</td>
+                    <td class="word">舆情风险 传言 谣言 监管 调查 信披 退市风险 财务造假</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_30989915" target="_blank" class="news-link">影子调查丨千万国资支出“假戏真做”疑云</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 03时54分</font></td>
+                </tr>
+            
+            </table>
+        
+            <div class="new-section">
+                <h3>🆕 本次新增热点新闻 (共 3 条)</h3>
+            <h4>百度热搜 (1 条)</h4><ul><li><a href="https://www.baidu.com/s?wd=%E4%BC%8A%E6%9C%97%E5%86%8D%E5%90%91%E4%BB%A5%E5%8F%91%E5%B0%84%E5%AF%BC%E5%BC%B9+%E4%BB%A5%E7%A7%B0%E6%AD%A3%E5%8A%AA%E5%8A%9B%E6%8B%A6%E6%88%AA" target="_blank" class="news-link">伊朗再向以发射导弹 以称正努力拦截</a> [29]</li></ul><h4>澎湃新闻 (1 条)</h4><ul><li><a href="https://m.thepaper.cn/newsDetail_forward_30991395" target="_blank" class="news-link">大学2025丨学者王生云：AI时代应回归以作者为中心的评价体系</a> [20]</li></ul><h4>财联社热门 (1 条)</h4><ul><li><a href="https://www.cls.cn/detail/2058825" target="_blank" class="news-link">1500亿半导体龙头6月20日起正式变更证券简称|盘后公告集锦</a> [13]</li></ul></div>
+        </body>
+        </html>
+        

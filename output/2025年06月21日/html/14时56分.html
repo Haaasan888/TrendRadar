@@ -1,0 +1,138 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>总标题数: 255</p><p>生成时间: 2025-06-21 14:56:41</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">宏观 CPI PPI GDP 降准 加息 降息 通胀 滞涨 宏观经济 货币政策 财政政策</td>
+                    <td class="count">4</td>
+                    <td class="percentage">1.57%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3749538" target="_blank" class="news-link">美联储理事沃勒：无需等待太久就可以降息，最早在7月</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 14时56分</font><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3749549" target="_blank" class="news-link">特朗普：若鲍威尔降息到1%-2%，美国一年省万亿美元，也许改变主意炒掉他？</a> [10] <font color='grey'>- 14时56分</font></div><br>[财联社热门] <a href="https://www.cls.cn/detail/2063749" target="_blank" class="news-link">特朗普再批鲍威尔：若降息至1%-2% 每年可省万亿美元</a> [7] <font color='grey'>- 14时56分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2063685" target="_blank" class="news-link">普京：俄GDP连续两年增速超4% 绝不允许经济陷入衰退</a> [8] <font color='grey'>- 14时56分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">消费 白酒 家电 食品饮料 啤酒 消费电子 新零售</td>
+                    <td class="count">4</td>
+                    <td class="percentage">1.57%</td>
+                    <td class="titles">[今日头条] <a href="https://www.toutiao.com/trending/7517779746671951883/" target="_blank" class="news-link">让“真金白银”更高效直达消费者</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 14时56分</font><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3749511" target="_blank" class="news-link">一线城市消费和储蓄“双降”</a> [7] <font color='grey'>- 14时56分</font><br>[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31016442" target="_blank" class="news-link">消费者指“得力”一型号卡尺误差超过宣称应下架，品牌方回应：抽测合格</a> [16] <font color='grey'>- 14时56分</font><br>[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31017646" target="_blank" class="news-link">五粮液：把握第八代五粮液投放节奏，抓住年轻消费群体，全面布局电商渠道</a> [19] <font color='grey'>- 14时56分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">军工 军工股 军民融合 航空航天 导弹 国防军工</td>
+                    <td class="count">4</td>
+                    <td class="percentage">1.57%</td>
+                    <td class="titles">[今日头条] <a href="https://www.toutiao.com/trending/7517311330261614611/" target="_blank" class="news-link">以色列证实伊朗导弹携带集束弹头</a> [21] <font color='grey'>- 14时56分</font><br>[百度热搜] <a href="https://www.baidu.com/s?wd=%E4%BC%8A%E6%9C%97%E7%94%A8%E5%AF%BC%E5%BC%B9%E9%80%81%E4%BB%A5%E9%97%B4%E8%B0%8D%E2%80%9C%E5%9B%9E%E5%AE%B6%E2%80%9D%EF%BC%9F%E5%81%87" target="_blank" class="news-link">伊朗用导弹送以间谍“回家”？假</a> [11] <font color='grey'>- 14时56分</font><br>[百度热搜] <a href="https://www.baidu.com/s?wd=%E4%BC%8A%E6%9C%97%E5%85%AC%E5%B8%83%E5%AF%BC%E5%BC%B9%E9%BD%90%E5%B0%84%E7%94%BB%E9%9D%A2" target="_blank" class="news-link">伊朗公布导弹齐射画面</a> [25] <font color='grey'>- 14时56分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2063534" target="_blank" class="news-link">以称伊朗发起新一轮导弹袭击 要求全境民众进入避难所</a> [6] <font color='grey'>- 14时56分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">美联储 美股 道琼斯 纳斯达克 标普500 加息预期 美债收益率</td>
+                    <td class="count">3</td>
+                    <td class="percentage">1.18%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3749518" target="_blank" class="news-link">美股涨跌不一，芯片股遭挫，英伟达一度跌1.8%，Circle再涨20%，美债全线走强</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 14时56分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2063725" target="_blank" class="news-link">美股收盘：标普三过6000点而不入 Circle上市11天涨超6倍</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 14时56分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2063520" target="_blank" class="news-link">美股三大期指集体走高 特斯拉盘前涨近2% | 今夜看点</a> [12] <font color='grey'>- 14时56分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">AI 人工智能 大模型 GPT Sora AIGC 算力 算力租赁 数据中心</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.78%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3749509" target="_blank" class="news-link">OpenAI被扒了个底朝天！</a> [8] <font color='grey'>- 14时56分</font><br>[douyin] <a href="https://www.douyin.com/hot/2139144" target="_blank" class="news-link">抖音AI修图太权威了</a> [29] <font color='grey'>- 14时56分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">医药 创新药 中药 医美 医疗器械 集采 医保谈判</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.78%</td>
+                    <td class="titles">[财联社热门] <a href="https://www.cls.cn/detail/2063475" target="_blank" class="news-link">高端医疗器械发展提速：支持政策呼之欲出 医用机器人等方向有望受益</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 14时56分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2063411" target="_blank" class="news-link">国家药监局：支持高端医疗器械创新发展 将出台新措施</a> [11] <font color='grey'>- 14时56分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="word">舆情风险 传言 谣言 监管 调查 信披 退市风险 财务造假</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.78%</td>
+                    <td class="titles">[今日头条] <a href="https://www.toutiao.com/trending/7517952291714908199/" target="_blank" class="news-link">九寨沟景区发生大巴坠崖事故？谣言</a> [10] <font color='grey'>- 14时56分</font><br>[douyin] <a href="https://www.douyin.com/hot/2139225" target="_blank" class="news-link">一周谣言盘点</a> [12] <font color='grey'>- 14时56分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>8</td>
+                    <td class="word">房地产 楼市 地产股 房价 房地产政策 保障房</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[财联社热门] <a href="https://www.cls.cn/detail/2063355" target="_blank" class="news-link">出售型保障房可按比例调整为商品房 深圳出台新规释放存量项目流动性</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 14时56分</font></td>
+                </tr>
+            
+            </table>
+        
+            <div class="new-section">
+                <h3>🆕 本次新增热点新闻 (共 1 条)</h3>
+            <h4>华尔街见闻 (1 条)</h4><ul><li><a href="https://wallstreetcn.com/articles/3749549" target="_blank" class="news-link">特朗普：若鲍威尔降息到1%-2%，美国一年省万亿美元，也许改变主意炒掉他？</a> [10]</li></ul></div>
+        </body>
+        </html>
+        

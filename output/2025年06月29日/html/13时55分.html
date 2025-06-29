@@ -1,0 +1,138 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>总标题数: 255</p><p>生成时间: 2025-06-29 13:55:17</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">舆情风险 传言 谣言 监管 调查 信披 退市风险 财务造假</td>
+                    <td class="count">4</td>
+                    <td class="percentage">1.57%</td>
+                    <td class="titles">[今日头条] <a href="https://www.toutiao.com/trending/7521004267101126692/" target="_blank" class="news-link">智能电表能控制计量快慢？谣言</a> [10] <font color='grey'>- 13时55分</font><br>[百度热搜] <a href="https://www.baidu.com/s?wd=%E5%B0%B9%E9%94%A1%E6%82%A6%E6%8E%A5%E5%8F%97%E7%89%B9%E6%A3%80%E7%BB%84%E8%B0%83%E6%9F%A5%E9%95%BF%E8%BE%BE15%E5%B0%8F%E6%97%B6" target="_blank" class="news-link">尹锡悦接受特检组调查长达15小时</a> [26] <font color='grey'>- 13时55分</font><br>[凤凰网] <a href="https://news.ifeng.com/c/8kZsh3qGwIF" target="_blank" class="news-link">尹锡悦被曝曾不配合特检组首日调查</a> [8] <font color='grey'>- 13时55分</font><br>[douyin] <a href="https://www.douyin.com/hot/2148930" target="_blank" class="news-link">幼儿园起火32人被困系谣言</a> [12] <font color='grey'>- 13时55分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">美联储 美股 道琼斯 纳斯达克 标普500 加息预期 美债收益率</td>
+                    <td class="count">3</td>
+                    <td class="percentage">1.18%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3750036" target="_blank" class="news-link">宋雪涛：谁导演了美股的情绪市？</a> [9] <font color='grey'>- 13时55分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2070300" target="_blank" class="news-link">美股收盘：纳指、标普指数创下历史新高 特朗普再度打压市场情绪</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 13时55分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2070345" target="_blank" class="news-link">标普完成10万亿美元市值“华丽转身”！华尔街惊叹美股神奇新高之旅</a> [11] <font color='grey'>- 13时55分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">新能源 光伏 风电 氢能源 锂电池 电动车 储能 充电桩 固态电池</td>
+                    <td class="count">3</td>
+                    <td class="percentage">1.18%</td>
+                    <td class="titles">[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31049157" target="_blank" class="news-link">相机锂电池能否上飞机？有哪些限制？12家国内大型机场回应来了</a> [9] <font color='grey'>- 13时55分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2070460" target="_blank" class="news-link">固态电池概念股赫然在列！6月接待机构调研次数居前热门股名单一览</a> [10] <font color='grey'>- 13时55分</font><br>[zhihu] <a href="https://www.zhihu.com/question/1921214677909730700" target="_blank" class="news-link">隆基绿能创始人称「十年后光伏转换效率有望达到 35%」，这个数字说明了什么？中国光伏行业发展现状如何？</a> [9] <font color='grey'>- 13时55分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">医药 创新药 中药 医美 医疗器械 集采 医保谈判</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.78%</td>
+                    <td class="titles"><div class='new-title'>🆕 [weibo] <a href="https://m.weibo.cn/search?containerid=231522type%3D1%26q%3D%23%E5%A5%B3%E5%AD%A9%E5%81%9A%E9%BB%91%E5%8C%BB%E7%BE%8E%E4%B8%80%E9%92%88%E6%99%95%E5%8E%A5%E5%85%A8%E8%BA%AB%E5%8F%91%E9%BB%91%23&amp;_T_WM=16922097837&amp;v_p=42" target="_blank" class="news-link">女孩做黑医美一针晕厥全身发黑</a> [6] <font color='grey'>- 13时55分</font></div><br><div class='new-title'>🆕 [weibo] <a href="https://m.weibo.cn/search?containerid=231522type%3D1%26q%3D%23%E5%8C%BB%E7%BE%8E%E5%9F%B9%E8%AE%AD%E8%80%81%E5%B8%88%E5%AE%A3%E7%A7%B0%E6%88%91%E4%BB%AC%E9%83%BD%E6%B2%A1%E8%AF%81%23&amp;_T_WM=16922097837&amp;v_p=42" target="_blank" class="news-link">医美培训老师宣称我们都没证</a> [14] <font color='grey'>- 13时55分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">A股 股市 沪指 深指 创业板 中小板 大盘 A股市场</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[财联社热门] <a href="https://www.cls.cn/detail/2070314" target="_blank" class="news-link">【早报】沪深交易所：拟将主板风险警示股票价格的涨跌幅限制比例调整为10%；创业板首家未盈利企业上市申请获深交所受理</a> [8] <font color='grey'>- 13时55分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">宏观 CPI PPI GDP 降准 加息 降息 通胀 滞涨 宏观经济 货币政策 财政政策</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3750043" target="_blank" class="news-link">删除“择机降准降息”等，关注央行季度例会的变与不变</a> [7] <font color='grey'>- 13时55分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="word">AI 人工智能 大模型 GPT Sora AIGC 算力 算力租赁 数据中心</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3750030" target="_blank" class="news-link">首次使用“非英伟达”芯片！OpenAI租用谷歌TPU，降低推理计算成本</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 13时55分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>8</td>
+                    <td class="word">消费 白酒 家电 食品饮料 啤酒 消费电子 新零售</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[zhihu] <a href="https://www.zhihu.com/question/1921896804154302914" target="_blank" class="news-link">消费者称邮寄罗马仕安克等召回充电宝，遭快递公司拒收，快递员称查到要罚款，为什么会这样？怎样才能退货？</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 13时55分</font></td>
+                </tr>
+            
+            </table>
+        
+            <div class="new-section">
+                <h3>🆕 本次新增热点新闻 (共 2 条)</h3>
+            <h4>weibo (2 条)</h4><ul><li><a href="https://m.weibo.cn/search?containerid=231522type%3D1%26q%3D%23%E5%A5%B3%E5%AD%A9%E5%81%9A%E9%BB%91%E5%8C%BB%E7%BE%8E%E4%B8%80%E9%92%88%E6%99%95%E5%8E%A5%E5%85%A8%E8%BA%AB%E5%8F%91%E9%BB%91%23&amp;_T_WM=16922097837&amp;v_p=42" target="_blank" class="news-link">女孩做黑医美一针晕厥全身发黑</a> [6]</li><li><a href="https://m.weibo.cn/search?containerid=231522type%3D1%26q%3D%23%E5%8C%BB%E7%BE%8E%E5%9F%B9%E8%AE%AD%E8%80%81%E5%B8%88%E5%AE%A3%E7%A7%B0%E6%88%91%E4%BB%AC%E9%83%BD%E6%B2%A1%E8%AF%81%23&amp;_T_WM=16922097837&amp;v_p=42" target="_blank" class="news-link">医美培训老师宣称我们都没证</a> [14]</li></ul></div>
+        </body>
+        </html>
+        

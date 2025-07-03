@@ -1,0 +1,130 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>总标题数: 255</p><p>生成时间: 2025-07-03 15:27:20</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">半导体 芯片 集成电路 光刻机 国产替代 EDA</td>
+                    <td class="count">7</td>
+                    <td class="percentage">2.75%</td>
+                    <td class="titles">[今日头条] <a href="https://www.toutiao.com/trending/7522344839473004607/" target="_blank" class="news-link">美取消对华芯片设计软件出口限制</a> [21] <font color='grey'>- 15时27分</font><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7522700182459272758/" target="_blank" class="news-link">专家：美对华解禁EDA是战术性妥协</a> [28] <font color='grey'>- 15时27分</font></div><br>[百度热搜] <a href="https://www.baidu.com/s?wd=%E7%BE%8E%E5%8F%96%E6%B6%88%E5%AF%B9%E4%B8%AD%E5%9B%BD%E8%8A%AF%E7%89%87%E8%AE%BE%E8%AE%A1%E8%BD%AF%E4%BB%B6%E5%87%BA%E5%8F%A3%E9%99%90%E5%88%B6" target="_blank" class="news-link">美取消对中国芯片设计软件出口限制</a> [13] <font color='grey'>- 15时27分</font><br>[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31094028" target="_blank" class="news-link">西门子称美国已取消对中国芯片设计软件的出口限制</a> [9] <font color='grey'>- 15时27分</font><br>[凤凰网] <a href="https://news.ifeng.com/c/8kgZz0GOp4W" target="_blank" class="news-link">美取消EDA出口限制，三大芯片软件商恢复对华供货</a> [6] <font color='grey'>- 15时27分</font><br>[douyin] <a href="https://www.douyin.com/hot/2153658" target="_blank" class="news-link">美取消对华芯片设计软件出口限制</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 15时27分</font><br>[zhihu] <a href="https://www.zhihu.com/question/1924042153266475493" target="_blank" class="news-link">美商务部取消全球三大芯片设计软件供应商对华出口限制，释放了什么信号？将对芯片产业带来哪些影响？</a> [11] <font color='grey'>- 15时27分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">A股 股市 沪指 深指 创业板 中小板 大盘 A股市场</td>
+                    <td class="count">4</td>
+                    <td class="percentage">1.57%</td>
+                    <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=A%E8%82%A1%E6%94%B6%E8%AF%84%EF%BC%9A%E5%88%9B%E4%B8%9A%E6%9D%BF%E6%8C%87%E9%AB%98%E5%BC%80%E9%AB%98%E8%B5%B0%E6%B6%A81.9%25" target="_blank" class="news-link">A股收评：创业板指高开高走涨1.9%</a> [15] <font color='grey'>- 15时27分</font></div><br>[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31087532" target="_blank" class="news-link">证监会：以做强主场为方向，持续提升A股市场吸引力、竞争力</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 15时27分</font><br>[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31087720" target="_blank" class="news-link">究竟｜6月A股IPO受理井喷，释放了哪些信号？</a> [14] <font color='grey'>- 15时27分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2074631" target="_blank" class="news-link">赚钱效应吸引，A股6月新开165万户，同比增长53%，上半年增长33%</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 15时27分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">AI 人工智能 大模型 GPT Sora AIGC 算力 算力租赁 数据中心</td>
+                    <td class="count">4</td>
+                    <td class="percentage">1.57%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3750255" target="_blank" class="news-link">中国AI，正在全球突围</a> [9] <font color='grey'>- 15时27分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2074600" target="_blank" class="news-link">上海AI公司开源模型登上全球第二</a> [7] <font color='grey'>- 15时27分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2074856" target="_blank" class="news-link">试点扩容效应外溢，头部股份行加紧筹备AIC抢市场，大行AIC上半年落地基金数量已接近去年</a> [9] <font color='grey'>- 15时27分</font><br>[douyin] <a href="https://www.douyin.com/hot/2153002" target="_blank" class="news-link">如何评价小米AI眼镜</a> [16] <font color='grey'>- 15时27分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">军工 军工股 军民融合 航空航天 导弹 国防军工</td>
+                    <td class="count">3</td>
+                    <td class="percentage">1.18%</td>
+                    <td class="titles">[今日头条] <a href="https://www.toutiao.com/trending/7522348446000349226/" target="_blank" class="news-link">专家介绍052D导弹驱逐舰细节</a> [29] <font color='grey'>- 15时27分</font><br>[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=104%E5%B2%81%E5%86%9B%E5%B7%A5%E4%BA%BA%E7%82%B9%E8%B5%9E%E6%AD%BC10" target="_blank" class="news-link">104岁军工人点赞歼10</a> [20] <font color='grey'>- 15时27分</font><br>[tieba] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28343193&amp;amp;topic_name=%E8%83%A1%E5%A1%9E%E9%AB%98%E8%B6%85%E9%9F%B3%E9%80%9F%E5%AF%BC%E5%BC%B9%E6%89%93%E4%B8%AD%E4%BB%A5%E6%9C%BA%E5%9C%BA" target="_blank" class="news-link">胡塞高超音速导弹打中以机场</a> [22] <font color='grey'>- 15时27分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">舆情风险 传言 谣言 监管 调查 信披 退市风险 财务造假</td>
+                    <td class="count">3</td>
+                    <td class="percentage">1.18%</td>
+                    <td class="titles">[今日头条] <a href="https://www.toutiao.com/trending/7522091645824565311/" target="_blank" class="news-link">日本气象厅回应7月5日大地震传言</a> [15] <font color='grey'>- 15时27分</font><br>[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31083807" target="_blank" class="news-link">影子调查｜天然溶洞何以变成垃圾洞？！</a> [8] <font color='grey'>- 15时27分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2074587" target="_blank" class="news-link">【早报】证监会：始终把维护市场稳定作为监管工作首要任务；8月1日起，现金买黄金超10万元将需上报</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 15时27分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">宏观 CPI PPI GDP 降准 加息 降息 通胀 滞涨 宏观经济 货币政策 财政政策</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.78%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3750274" target="_blank" class="news-link">6月非农恐“遇冷”？瑞银花旗预警：就业市场降温或加速降息</a> [10] <font color='grey'>- 15时27分</font><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2075052" target="_blank" class="news-link">“负小非农”引爆非农悬念：7月降不降息就看今晚？</a> [8] <font color='grey'>- 15时27分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="word">美联储 美股 道琼斯 纳斯达克 标普500 加息预期 美债收益率</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.78%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3750298" target="_blank" class="news-link">美股盘初涨约3%，特斯拉第二季度交付38.4万辆，高于市场悲观预期35万辆</a> [7] <font color='grey'>- 15时27分</font><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2074821" target="_blank" class="news-link">美股已近周期顶部？“欧洲股神”建议：卖美国、买中国！</a> [11] <font color='grey'>- 15时27分</font></div></td>
+                </tr>
+            
+            </table>
+        
+            <div class="new-section">
+                <h3>🆕 本次新增热点新闻 (共 4 条)</h3>
+            <h4>今日头条 (1 条)</h4><ul><li><a href="https://www.toutiao.com/trending/7522700182459272758/" target="_blank" class="news-link">专家：美对华解禁EDA是战术性妥协</a> [28]</li></ul><h4>百度热搜 (1 条)</h4><ul><li><a href="https://www.baidu.com/s?wd=A%E8%82%A1%E6%94%B6%E8%AF%84%EF%BC%9A%E5%88%9B%E4%B8%9A%E6%9D%BF%E6%8C%87%E9%AB%98%E5%BC%80%E9%AB%98%E8%B5%B0%E6%B6%A81.9%25" target="_blank" class="news-link">A股收评：创业板指高开高走涨1.9%</a> [15]</li></ul><h4>财联社热门 (2 条)</h4><ul><li><a href="https://www.cls.cn/detail/2075052" target="_blank" class="news-link">“负小非农”引爆非农悬念：7月降不降息就看今晚？</a> [8]</li><li><a href="https://www.cls.cn/detail/2074821" target="_blank" class="news-link">美股已近周期顶部？“欧洲股神”建议：卖美国、买中国！</a> [11]</li></ul></div>
+        </body>
+        </html>
+        

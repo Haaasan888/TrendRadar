@@ -1,0 +1,135 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>总标题数: 255</p><p>生成时间: 2025-07-05 01:20:39</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">A股 股市 沪指 深指 创业板 中小板 大盘 A股市场</td>
+                    <td class="count">3</td>
+                    <td class="percentage">1.18%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3750404" target="_blank" class="news-link">AH股冲高回落，沪指一度逼近3500点，银行股再爆发，恒指失守24000点，科网股普跌，商品下跌，国债走强</a> [10] <font color='grey'>- 01时20分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2076466" target="_blank" class="news-link">【焦点复盘】沪指冲高回落一度逼近3500点，电力、创新药板块全天强势，多只高位人气股遭遇跌停</a> [7] <font color='grey'>- 01时20分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2076386" target="_blank" class="news-link">【每日收评】午后市场冲高回落！深成指与创业板指双双收跌，银行股全天活跃</a> [10] <font color='grey'>- 01时20分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">宏观 CPI PPI GDP 降准 加息 降息 通胀 滞涨 宏观经济 货币政策 财政政策</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.78%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3750350" target="_blank" class="news-link">非农超预期，标普、纳指又创新高，降息预期大降，美债受挫，黄金一度跌约1.4%</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 01时20分</font><br>[zhihu] <a href="https://www.zhihu.com/question/1924369035199512996" target="_blank" class="news-link">「大而美」法案通过，美国 6 月宏观经济数据呈明显复苏特征，但贸易逆差环比加大，如何看待？</a> [20] <font color='grey'>- 01时20分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">军工 军工股 军民融合 航空航天 导弹 国防军工</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.78%</td>
+                    <td class="titles">[今日头条] <a href="https://www.toutiao.com/trending/7523087907377122858/" target="_blank" class="news-link">俄军指挥部被导弹一锅端说明什么</a> [27] <font color='grey'>- 01时20分</font><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3750401" target="_blank" class="news-link">外媒爆：美政府通知通用电气航空航天，称其可以重启向中国商飞供应喷气发动机</a> [9] <font color='grey'>- 01时20分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">基金 ETF 公募基金 私募基金 基金经理 基金重仓股</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.78%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3750379" target="_blank" class="news-link">贝森特称美对越20%关税不会与现行10%叠加，越南ETF加速上涨</a> [6] <font color='grey'>- 01时20分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2076660" target="_blank" class="news-link">葛兰旗下产品增聘基金经理，什么信号？团队化管理正成公募重要转型方向</a> [9] <font color='grey'>- 01时20分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">美联储 美股 道琼斯 纳斯达克 标普500 加息预期 美债收益率</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3750428" target="_blank" class="news-link">美股美债独立日休市，贸易冲突再升级，欧洲芯片股普跌、原油跌幅扩大，日元黄金走强</a> [8] <font color='grey'>- 01时20分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">中特估 中字头 国企改革 央企 国资委 混改 央企控股</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[财联社热门] <a href="https://www.cls.cn/detail/2076513" target="_blank" class="news-link">国资委主任张玉卓：大力实施新一轮找矿突破战略行动 持续推动重要金属矿产增储上产</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 01时20分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="word">房地产 楼市 地产股 房价 房地产政策 保障房</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[财联社热门] <a href="https://www.cls.cn/detail/2076671" target="_blank" class="news-link">住建部：持续巩固房地产市场稳定态势</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 01时20分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>8</td>
+                    <td class="word">舆情风险 传言 谣言 监管 调查 信披 退市风险 财务造假</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31103293" target="_blank" class="news-link">问题电芯疑供货多家充电宝品牌目前仅两家召回，律师：监管发现问题可责令召回</a> [7] <font color='grey'>- 01时20分</font></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
